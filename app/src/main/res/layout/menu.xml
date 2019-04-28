@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.ActionMenuView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <group android:checkableBehavior="single">
+
+     <item
+         android:title="Add dishes"
+         android:id="@+id/item1"
+         android:icon="@drawable/p"/>
+        <item
+            android:title="Add receipt"
+            android:id="@+id/item2"
+            android:icon="@drawable/ha"/>
+        <item
+            android:title="view plate"
+            android:id="@+id/item3"
+            android:icon="@drawable/icons8-eye-24"/>
+        <item
+            android:title="view receipt"
+            android:id="@+id/item4"
+        android:icon="@drawable/eye"/>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item
+        android:title="Change email"
+        android:id="@+id/item5"/>
+    <item
+        android:title="Change password"
+        android:id="@+id/item6"/>
+      </group>
+
+</android.support.v7.widget.ActionMenuView>

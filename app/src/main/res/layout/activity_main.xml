@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:background="?attr/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:textAlignment="center" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input2"
+        android:layout_below="@+id/toolbar"
+        android:layout_margin="16dp">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/edit1"
+            android:hint="Enter your email"
+            android:inputType="textEmailAddress"
+            android:layout_below="@+id/toolbar"
+            android:textAlignment="center"
+            /><requestFocus/>
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/input1"
+        android:layout_below="@+id/input2"
+        android:layout_margin="16dp">
+
+        <android.support.v7.widget.AppCompatEditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/edit2"
+            android:hint="Enter your password"
+            android:inputType="textWebPassword"
+            android:layout_below="@+id/edit1"
+            android:textAlignment="center"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/input1"
+        android:hint="Login"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/button"
+        android:background="@color/colorPrimary"
+        android:textSize="3mm"
+        android:textColor="#ffff"
+        />
+
+</RelativeLayout>
