@@ -12,18 +12,18 @@
         android:layout_height="56dp"
         android:src="@drawable/t"
         android:scaleType="centerCrop"
-        />
+        android:contentDescription="@string/profile"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tharcissie"
+        android:text="@string/name"
         android:paddingTop="8dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="tharcissieidufashe@gmail.com"
+        android:text="@string/email"
         android:paddingTop="4dp"/>
 
 </LinearLayout>

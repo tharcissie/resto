@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Resto</string>
+    <string name="open_drawer">open navigation drawer</string>
+    <string name="close_drawer">close navigation drawer</string>
+    <string name="email">tharcissieidufashe@gmail.com</string>
+    <string name="name">Tharcissie</string>
+    <string name="profile">profile</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="add_dish">Add dish</string>
+    <string name="add_receipt">Add receipt</string>
+    <string name="view_dish">View dish</string>
+    <string name="view_receipt">View receipt</string>
+    <string name="schedule">Schedule</string>
+    <string name="change_email">Change email</string>
+    <string name="change_password">Change password</string>
+    <string name="login">Login</string>
 </resources>

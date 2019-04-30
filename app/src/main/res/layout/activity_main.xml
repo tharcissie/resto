@@ -26,7 +26,7 @@
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:id="@+id/edit1"
-            android:hint="Enter your email"
+            android:hint="@string/enter_email"
             android:inputType="textEmailAddress"
             android:layout_below="@+id/toolbar"
             android:textAlignment="center"
@@ -46,7 +46,7 @@
             android:layout_height="wrap_content"
             android:layout_width="match_parent"
             android:id="@+id/edit2"
-            android:hint="Enter your password"
+            android:hint="@string/enter_password"
             android:inputType="textWebPassword"
             android:layout_below="@+id/edit1"
             android:textAlignment="center"/>
@@ -56,11 +56,10 @@
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:layout_below="@+id/input1"
-        android:hint="Login"
+        android:hint="@string/login"
         android:layout_centerHorizontal="true"
         android:id="@+id/button"
         android:background="@color/colorPrimary"
-        android:textSize="3mm"
         android:textColor="#ffff"
         />
 
