@@ -21,7 +21,7 @@
 
         <activity android:name=".Main2Activity">
         <intent-filter>
-            <action android:name="android.intent.action.Main2Activity" />
+            <action android:name=".Main2Activity" />
 
             <category android:name="android.intent.category.DEFAULT" />
         </intent-filter>
